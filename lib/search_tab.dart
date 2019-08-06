@@ -31,7 +31,7 @@ class _SearchTabState extends State<SearchTab> {
     _focusNode.dispose();
     _controller.dispose();
     super
-        .dispose(); // use this method to prevent dart analysis "override method annotated as @mustCallSuper in 'State' but does not invoke overridden method"
+        .dispose(); // use this method to prevent dart analysis "override method annotated as @mustCallSuper in 'State', but does not invoke overridden method"
   }
 
   @override
